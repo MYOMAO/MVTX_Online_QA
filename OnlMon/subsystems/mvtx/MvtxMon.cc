@@ -55,9 +55,6 @@ int MvtxMon::Init()
 //  mvtxhist1 = new TH1F("mvtxmon_hist1", "test 1d histo", 101, 0., 100.);
 //  mvtxhist2 = new TH2F("mvtxmon_hist2", "test 2d histo", 101, 0., 100., 101, 0., 100.);
  
-
-  printf("SUCK BRO\n");
-
   TFile * fin = new TFile("/sphenix/user/zshi/PmonYasser/sPHENIX_prototype/online/mvtx_qa/mvtx_QA_pmon/SaveFiles/Run_872.root");
   fin->cd();	
 
